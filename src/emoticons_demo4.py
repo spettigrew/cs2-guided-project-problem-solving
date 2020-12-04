@@ -21,7 +21,7 @@ Notes:
 - The sentence always starts with "Make me".
 - Try to solve this without using conditional statements like if/else.
 """
-
+# Plan - replace the words with emoticon by making a new string. 
 
 def emotify(txt):
     # Your code here
