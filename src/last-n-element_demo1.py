@@ -20,9 +20,9 @@ Notes:
 def last(a, n):
     # Your code here
     if n > len(a):
-        return None
-    # elif n == 0:          or include this code
-    #     return []
+        return 'invalid'
+    elif n == 0:          
+        return []
     #main solution code
     return a[leng(a)-n:]   # or [-n:] will work as well
 
