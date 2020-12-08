@@ -24,5 +24,5 @@ def last(a, n):
     elif n == 0:          
         return []
     #main solution code
-    return a[leng(a)-n:]   # or [-n:] will work as well
+    return a[len(a)-n:]   # or [-n:] will work as well
 
