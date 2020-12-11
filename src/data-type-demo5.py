@@ -21,6 +21,26 @@ Examples:
 Notes:
 - Return the name of the data type as a lowercase string.
 """
+import datetime
+value = datetime.date(2018,1,1)
 def data_type(value):
     # Your code here
 
+    data = type(value)
+    # U - return the data type in a string
+    print(data)
+    if data == list:
+       return "List"
+    elif data == dict:
+        return "Dictionary"
+    elif data == str:
+        return "String"
+    elif data == int:
+        return "Integer"
+    elif data == float:
+        return "Float"
+    elif data == bool:
+        return "Boolean"
+    elif data == datetime.date:
+        return "Date"
+print(data_type(value))

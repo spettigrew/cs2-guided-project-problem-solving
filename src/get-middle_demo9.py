@@ -15,5 +15,6 @@ Examples:
 """
 def get_middle(input_str):
     # Your code here
+    pass
 
 

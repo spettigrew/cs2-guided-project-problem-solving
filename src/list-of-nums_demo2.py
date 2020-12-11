@@ -13,8 +13,20 @@ Examples:
 Notes:
 - The input list will only contain integers.
 """
-
+numbers = [1, 2, 3, 4, 5]
 
 def add_indexes(numbers):
     # Your code here
+
+    # initiliaze results array to hold result
+    results = []
+
+    # iterate thourgh the array. Enumerate gives me the index/value
+    for idx, value in enumerate(numbers):
+        # add idx and value and append it to results array
+        results.append(idx + value)
+        
+    # return the array
+    return results
+print(add_indexes(numbers))
 
