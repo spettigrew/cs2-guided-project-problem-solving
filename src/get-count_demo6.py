@@ -9,4 +9,5 @@ The input string will only consist of lower case letters and/or spaces.
 """
 def get_count(input_str):
     # Your code here
+    pass
 

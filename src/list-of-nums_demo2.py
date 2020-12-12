@@ -30,3 +30,8 @@ def add_indexes(numbers):
     return results
 print(add_indexes(numbers))
 
+
+# ENUMERATE - the function five you back 2 loop variables:
+    # 1. the count of the current iteration
+    # 2. the valuse of the item at the current iteration.
+    # - With enumerate, you don't need to remember to access the item from the iterable, and you don't need to remeber to advance the index at the end of the loop. 
